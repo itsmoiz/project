@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  overflow: scroll;
+  background-image: linear-gradient( to right,pink,blue);
+}
+.container{
+  display: flex;
+ 
+}
+.child{
+  background-color: yellow;
+  padding: 10px 20px;
+  width: 18%;
+  position: relative;
+  left: 40px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 7px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.c{
+  margin-top: 20px;
+  position: relative;
+}
+.p{
+  position: relative;
+  left: 45px;
+}
+.a{
+  background-color: yellow;
+  width: 410px;
+  position: absolute;
+  top: 0px;
+  left: 870px;
+}
+.b{
+  background-color: yellow;
+  width: 410px;
+  position: absolute;
+  right: 71px;
+  top: 225px;
+}
+.d{
+  display: flex;
+}
+.e{
+  background-color: yellow;
+  width: 301px;
+  margin-left: 10px;
+  position: relative;
+  top: 20px;
+  left: 32px;
+}
+.f{
+  background-color: white;
+  margin-top: 40px;
+  width: 93%;
+  margin-left: 40px;
+}
+.g{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.h{
+  position: absolute;
+  left: 450px;
+  top: 850px;
+}
+.container2{
+ 
+  display: flex;
+  margin-top: 20px;
+  position: absolute;
+  
+}
+.child2{
+ 
+  margin-left: 40px;
+  
+}
+.container3{
+  display: flex;
+  margin-top: 20px;
+  position: absolute;
+  top: 1300px;
+
+}
+.child3{
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
